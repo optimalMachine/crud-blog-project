@@ -1,0 +1,63 @@
+.createPostPage {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: grid;
+    place-items: center;
+  }
+  
+.container {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.container h1 {
+    text-align: center;
+  }
+  
+.container label {
+    font-size: 25px;
+  }
+.container__inputs {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.container__inputs input, .container__inputs textarea {
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+  }
+  
+.container__inputs input {
+    height: 40px;
+  }
+
+.container__inputs textarea {
+    height: 150px;
+  }
+  
+button {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+button:hover{
+    background-color: gray;
+    transition:0.5s;
+}
+
+input, textarea {
+    margin-top: 5px;
+  }

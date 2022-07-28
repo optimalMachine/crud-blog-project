@@ -1,0 +1,15 @@
+.loginPage {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top:20%;
+}
+
+.login-with-google-btn{
+    font-size:15px;
+    display:flex;
+    justify-content: center;
+    width:200px;
+    padding-top:10px;
+}
+
